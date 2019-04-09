@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="TrackingApp">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <dependent-module archiveName="json-java.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/hp-u/eclipse-workspace/TrackingApp/json-java.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="FileUpload.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/hp-u/eclipse-workspace/TrackingApp/FileUpload.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="TrackingApp"/>
+        <property name="java-output-path" value="/TrackingApp/build/classes"/>
+    </wb-module>
+</project-modules>
